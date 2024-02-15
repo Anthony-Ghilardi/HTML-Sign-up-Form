@@ -32,7 +32,8 @@
                             <label for="city">Your City</label>
                             <input type="text" name="city">
                             <label for="state">Your State</label>
-                            <select name="state" id="state"> 
+                            <input list="state-list" id="state" name="state">
+                            <datalist id="state-list"> 
                                 <option value="AL">Alabama</option>
                                 <option value="AK">Alaska</option>
                                 <option value="AZ">Arizona</option>
@@ -92,7 +93,7 @@
                     <legend>Your Preferences</legend>
                     <h3>Choose your location</h3>
                     <div>
-                       <input type="radio" id="aruba" name="location" value="Aruba">
+                       <input type="radio" id="aruba" name="location" value="Aruba" checked>
                        <label for="aruba">Aruba</label>
                     </div>
                     <div>
@@ -112,7 +113,7 @@
                     </div>
                     <br>
                     <div>
-                        <input type="checkbox" id="sauna-access" name="extras" value="Sauna Access">
+                        <input type="checkbox" id="sauna-access" name="extras" value="Sauna Access" checked>
                         <label for="sauna-access">Access to an onsite sauna</label>
                     </div>
                     <div>
